@@ -152,7 +152,7 @@ def org():
             break
 
 #Establishing connection
-mydb=ms.connect(host="localhost",user="root",passwd="puchi12345")
+mydb=ms.connect(host="localhost",user="root",passwd = PASSWORD)
 #Checking connection 
 def check():            
     if mydb.is_connected():
